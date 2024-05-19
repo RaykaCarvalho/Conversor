@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcule</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores em Real R$
+    </p>
+
+    <div class="card">
+      <div class="MoedaMM">
+        <p>Selecione a moeda</p>
+        <select id="moeda">
+          <option value="0" selected></option>
+          <option value="1">Dolar</option>
+          <option value="2">Euro</option>
+          <option value="3">Libra</option>
+          <option value="4">BTC</option>
+        </select>
+      </div>
+      <label for="moeda">Insira o valor</label><br>
+      <input type="number" id="valor" size="2" /><br>
+      <button type="submit" onclick="update()">Converter</button>
+      <h2 id="valorConvertido"></h2>
+    </div>
+  </div>
+ 
+</body>
+</html>

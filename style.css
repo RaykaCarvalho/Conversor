@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur (50px);
+}
+
+.container {
+  text-align: center;
+  background-color: #00000099;
+  background-repeat: space;
+  inline-size: 500px;
+  position: center;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  border-radius: 30px;
+  font-size: 20px;
+  color:#fff;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-block-start: 5px;
+}
+
+.page-logo {
+  inline-size: 200px;
+}
+
+.alura-logo {
+  inline-size: 40px;
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-end: 10px;
+}
+
+
+
+label {
+  color: white;
+}
+
+button {
+  margin-block-start: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.MoedaMM {
+  color: #ffffff;
+  margin: 12px;
+  border-radius: 5px;
+  inline-size: 200px;
+  position: center;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+input {
+  margin: 1px;
+  padding: 8px;
+  border-radius: 100px;
+  border-color: #000000;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+}
+select {
+  margin: 1px;
+  padding: 8px;
+  border-radius: 100px;
+  border-color: #000000;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+}
+button {
+  margin-block-start: 12px;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: #00000001;
+  color: #fff;
+  border: 10;
+  border-color: #fff;
+  font-size: 20px;
+}
